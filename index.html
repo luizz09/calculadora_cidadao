@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./calculadora_copy.js"defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Site para cálculos financeiros</h1>
+    <br>
+    <label for="tipo">Selecione o tipo:</label><br>
+    <div class="separacao">
+        <select id="tipo">
+            <option value="Valor futuro de capital">Valor futuro de capital</option>
+            <option value="Aplicação com depósitos regulares">Aplicação com depósitos regulares</option>
+            <option value="Financiamento com prestações fixas">Financiamento com prestações fixas</option>
+    </select></div>
+
+    <label for="meses">Meses:</label><br>
+    <div class="separacao"><input type="number" name="" id="meses" placeholder="Digite os meses:"></div>
+
+    <label for="taxadejuros">Juros:</label><br>
+    <div class="separacao"><input type="number" name="" id="taxadejuros" placeholder="Digite a taxa de juros:"></div>
+
+    <label for="valor">Valor:</label><br>
+    <div class="separacao"><input type="number" name="" id="valor" placeholder="Digite o valor:"></div>
+
+    <button onclick="principal()">Calcular</button><br>
+    <div id="resposta"></div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, #resposta{
+    background-color: rgb(45, 100, 45);
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+button{
+    font-size: 1rem;
+}
+
+input, button, select{
+    background-color: black;
+    text-align: center;
+    padding: 2px 4px;
+    border-radius: 8px;
+    color: white;
+}
+
+#resposta{
+    /* font-size: 12rem; */
+    margin-top: 12px;
+}
+
+.separacao{
+    margin-bottom: 8px;
+}
